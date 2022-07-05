@@ -79,7 +79,6 @@ body {
 }
 
 .navigation-icon {
-  margin-top: 9px;
   fill: #000000;
 }
 
@@ -172,7 +171,6 @@ body {
   height: 17px;
   width: 90px;
   margin-top: 16px;
-  /* margin-bottom: 0; */
   background-image: url("../image/icons/star.svg");
   background-repeat: repeat-x;
   background-position: left center;
@@ -209,6 +207,7 @@ body {
   text-transform: uppercase;
   color: #000;
   margin: 0;
+  margin-top: 30px;
 }
 
 .advantages-title-white {
@@ -249,20 +248,6 @@ body {
   margin-top: 30px;
   margin-right: 75px;
   margin-left: 75px;
-}
-
-.advantages-item-icon-house {
-  background: center top 89px/74px 70px no-repeat url("../image/icons/house.svg");
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-item-icon-food {
-  background: center top 89px/74px 70px no-repeat url("../image/icons/food.svg");
-}
-
-.advantages-item-icon-box {
-  background: center top 89px/74px 70px no-repeat url("../image/icons/box.svg");
-  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .found-descr {
@@ -448,10 +433,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  width: 140px;
+  margin-left: 70px;
 }
 
 .social-link{
-  font-style: #83B3D3;
+  display: block;
+  height: 40px;
+  color: #83B3D3;
 }
 
 .footer-phone a {
@@ -562,11 +551,17 @@ body {
   padding: 12px 19px;
 }
 
-.sort-card {
-  width: 48px;
-  height: 48px;
-  color: #fff;
-  background-color: #000;
+.sort-list {
+  display: flex;
+  width: 160px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sort-ico {
+  display: block;
+  width: 50px;
 }
 
 .pagination {
