@@ -378,85 +378,6 @@ body {
   object-fit: cover;
 }
 
-.button {
-  font-family: "PT Sans", "Arial", sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 700;
-  color: #fff;
-}
-
-.button-brown {
-  background-color: #756257;
-}
-
-.button-brown:hover {
-  background-color: #615048;
-}
-
-.button-brown:focus {
-  background-color: #615048;
-}
-
-.button-brown:active {
-  background-color: #e5e5e5;
-}
-
-.button-blue {
-  background-color: #83B3D3;
-}
-
-.button-green {
-  background-color: #7DB54F;
-}
-
-.button-more,
-.button-favorite,
-.button-check {
-  font-size: 16px;
-  line-height: 21px;
-  padding: 10px;
-  border-radius: 4px
-}
-
-.hotel-button {
-  display: flex;
-  justify-content: space-between;
-}
-
-.button-more {
-  width: 113px;
-}
-
-.button-favorite {
-  width: 120px;
-}
-
-.button-clear {
-  background-color: #F2F2F2;
-  color: #333;
-}
-
-.button-check {
-  width: 160px;
-  display: block;
-}
-
-.button-download {
-  display: block;
-  width: 620px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 60px;
-  border-radius: 4px;
-  font-size: 20px;
-  line-height: 26px;
-}
-
 .page-footer {
   display: flex;
   align-items: center;
@@ -476,6 +397,7 @@ body {
 
 .social-link{
   display: inline-block;
+  margin-right: auto;
   color: #83B3D3;
   height: 40px;
 }
@@ -514,22 +436,21 @@ body {
 }
 
 .developer {
-  width: 115px;
   margin-left: auto;
   margin-right: 72px;
 }
 
-.developer-link {
+.developer-ico {
   display: block;
   color: #000;
   margin-right: 5px;
 }
 
-.developer-link:hover {
+.developer-ico:hover {
   color: #756157;
 }
 
-.developer-link:focus-visible {
+.developer-ico:focus-visible {
   color: #756157;
 }
 
@@ -645,6 +566,12 @@ body {
   gap: 10px;
 }
 
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .pagination-link {
   display: block;
   text-decoration: none;
@@ -658,16 +585,30 @@ body {
   text-align: center;
 }
 
-.pagination-link-current{
+.pagination-link:hover {
+  background-color: #68A2CA;
+}
+
+.pagination-link:active {
+  color: #82B3D3;
+}
+
+.pagination-link-current {
   background-color: #F2F2F2;
   color: #000
 }
 
-.pagination-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.pagination-link-current:hover {
+  background-color: #F2F2F2;
 }
+
+.pagination-link-current:active {
+  background-color: #F2F2F2;
+}
+
+
+
+
 
 .select-view {
   width: 140px;
@@ -679,4 +620,123 @@ body {
   line-height: 23px;
 }
 
+/* //////////////////КНОПКИ */
 
+.button {
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+.button-brown {
+  background-color: #756257;
+}
+
+.button-brown:hover {
+  background-color: #615048;
+}
+
+.button-brown:focus {
+  background-color: #615048;
+}
+
+.button-brown:active {
+  background-color: #e5e5e5;
+}
+
+.button-brown:disabled {
+  background-color: #E5E5E5;
+}
+
+/* BLUE BUTTON */
+
+.button-blue {
+  background-color: #83B3D3;
+}
+
+.button-blue:hover {
+  background-color: #68A2CA;
+}
+
+.button-blue:focus {
+  background-color: #68A2CA;
+}
+
+.button-blue:active {
+  background-color: #82B3D3;
+}
+
+.button-blue:disabled{
+  background-color: #E5E5E5;
+}
+/*
+GREEN BUTTON */
+
+.button-green {
+  background-color: #7DB54F;
+}
+
+.button-green:hover {
+  background-color: #6C9E42;
+}
+
+.button-green:focus {
+  background-color: #6C9E42;
+}
+
+.button-green:active {
+  background-color: #E5E5E5;
+}
+
+.button-green:disabled{
+  background-color: #E5E5E5;
+}
+
+.button-more,
+.button-favorite,
+.button-check {
+  font-size: 16px;
+  line-height: 21px;
+  padding: 10px;
+  border-radius: 4px
+}
+
+.hotel-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-more {
+  width: 113px;
+}
+
+.button-favorite {
+  width: 120px;
+}
+
+.button-clear {
+  background-color: #F2F2F2;
+  color: #333;
+}
+
+.button-check {
+  width: 160px;
+  display: block;
+}
+
+.button-download {
+  display: block;
+  width: 620px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 26px;
+}
