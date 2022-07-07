@@ -51,9 +51,12 @@ body {
 }
 
 .navigation-button {
-  width: 130px;
   display: block;
+  font-size: 16px;
+  width: 160px;
   padding: 9px 15px;
+  line-height: 20px;
+  border-radius: 4px;
 }
 
 .navigation-list {
@@ -293,11 +296,11 @@ body {
 
 .search-button {
   display: inline-block;
-  background-color:#756257;
-  color: #fff;
   line-height: 36px;
   width: 555px;
   padding: 15px 0;
+  font-size: 20px;
+  border-radius: 4px;
 }
 
 .subscribe {
@@ -332,10 +335,19 @@ body {
 .subscribe-field {
   background-color: #F2F2F2;
   color: #000;
+  width: 600px;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 22px;
 }
 
 .subscribe-button {
   width: 200px;
+  height: 60px;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 20px;
+  line-height: 36px;
 }
 
 .subscribe-form {
@@ -372,16 +384,11 @@ body {
   text-decoration: none;
   text-align: center;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
   color: #fff;
-  border-radius: 4px;
 }
 
 .button-brown {
   background-color: #756257;
-  font-size: 16px;
-  width: 160px;
 }
 
 .button-brown:hover {
@@ -660,6 +667,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.select-view {
+  width: 140px;
+  height: 40px;
+  padding-left: 20px;
 }
 
 .select-descr {
