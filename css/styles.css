@@ -47,6 +47,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0 70px;
+  height: 70px;
 }
 
 .navigation-button {
@@ -71,11 +72,22 @@ body {
 }
 
 .navigation-link {
+  display: inline-block;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   color: #000;
   text-decoration: none;
+  text-align: center;
+  padding: 17px 17px;
+}
+
+.navigation-link:hover {
+  border-bottom: 2px solid #756257;
+}
+
+.navigation-link:active {
+  color: rgba(117, 98, 87, 0.3);
 }
 
 .navigation-icon {
@@ -194,8 +206,12 @@ body {
   width: 33.333%;
   padding-top: 97px;
   padding-bottom: 90px;
+  max-height: 197px;
 }
-
+.advantages-container {
+  margin-right: 85px;
+  margin-left: 85px;
+}
 .advantages-sublist {
   display: flex;
 }
@@ -208,10 +224,12 @@ body {
   color: #000;
   margin: 0;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .advantages-title-white {
    color: #fff;
+   margin-top: 0;
 }
 
 .advantages-number {
@@ -246,8 +264,6 @@ body {
 
 .advantages-descriptions {
   margin-top: 30px;
-  margin-right: 75px;
-  margin-left: 75px;
 }
 
 .found-descr {
@@ -364,6 +380,20 @@ body {
 
 .button-brown {
   background-color: #756257;
+  font-size: 16px;
+  width: 160px;
+}
+
+.button-brown:hover {
+  background-color: #615048;
+}
+
+.button-brown:focus {
+  background-color: #615048;
+}
+
+.button-brown:active {
+  background-color: #e5e5e5;
 }
 
 .button-blue {
@@ -438,16 +468,17 @@ body {
 }
 
 .social-link{
-  display: block;
-  height: 40px;
+  display: inline-block;
   color: #83B3D3;
+  height: 40px;
 }
 
-.footer-phone a {
-  font-size: 40px;
-  line-height: 40px;
-  color: #000;
-  text-decoration: none;
+.social-link:hover path {
+  fill: #68a2ca;
+}
+
+.social-link:active path {
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 .footer-phone {
@@ -456,10 +487,47 @@ body {
   margin-bottom: 40px;
 }
 
+.phone-link {
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.phone-link:hover {
+  color: #756157;
+}
+
+.phone-link:focus-visible {
+  color: #756157;
+}
+
+.phone-link:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .developer {
   width: 115px;
   margin-left: auto;
   margin-right: 72px;
+}
+
+.developer-link {
+  display: block;
+  color: #000;
+  margin-right: 5px;
+}
+
+.developer-link:hover {
+  color: #756157;
+}
+
+.developer-link:focus-visible {
+  color: #756157;
+}
+
+.developer-link:active {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .visually-hidden {
@@ -597,4 +665,5 @@ body {
 .select-descr {
   line-height: 23px;
 }
+
 
