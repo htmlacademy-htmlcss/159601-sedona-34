@@ -578,8 +578,8 @@ body {
 
 .sort-list {
   display: flex;
-  width: 160px;
-  height: 50px;
+  min-width: 170px;
+  height: 48px;
   justify-content: space-around;
   align-items: center;
 }
@@ -589,12 +589,18 @@ body {
   height: 48px;
   border-radius: 4px;
   border: 2px solid #e6e6e6;
-  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 .sort-card:hover {
   outline: 2px solid #83b3d3;
   border: none;
+}
+
+.sort-card-сurrent {
+  border: 2px solid #000;
 }
 
 .sort-ico {
