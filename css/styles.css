@@ -599,13 +599,6 @@ body {
   position: relative;
 }
 
-.range {
-  width: 288px;
-  height: 4px;
-  background-color: rgba(255, 255, 255, 0,3);
-  position: relative;
-}
-
 .range-input {
   box-sizing: border-box;
   width: 100%;
@@ -895,6 +888,7 @@ GREEN BUTTON */
 }
 
 .button-check {
+  border: none;
   width: 160px;
   height: 48px;
   display: block;
@@ -902,11 +896,15 @@ GREEN BUTTON */
 }
 
 .button-reset {
-  border:none;
+  border: none;
   background-color: transparent;
   color: #fff;
   margin-left: 45px;
   padding: 0;
+}
+
+.button-reset:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .button-download {
