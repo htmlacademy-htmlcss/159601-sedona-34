@@ -504,6 +504,7 @@ body {
 .catalog-form {
   display: flex;
   align-items: flex-start;
+  position: relative;
 }
 
 .catalog-filter-title {
@@ -532,10 +533,39 @@ body {
 }
 
 .range-scale  {
-  position: relative;
-  height: 4px;
-  m
+  position: absolute;
+  min-width: 287px;
+  border: none;
+  padding: 0;
+  margin-left: 122px;
+  border: none;
 }
+
+.price-cost {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 34px;
+}
+
+.value-min-box {
+  position: relative;
+}
+
+.value-max-box {
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
