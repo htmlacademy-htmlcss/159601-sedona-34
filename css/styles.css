@@ -939,3 +939,51 @@ GREEN BUTTON */
   width: 20px;
   height: 20px;
 }
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 60px 70px 70px 70px;
+  background-color: #fff;
+}
+
+.modal-main {
+  width: 715px;
+  height: 561px;
+  border-radius: 30px;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-close-button {
+  position: absolute;
+  margin-top: 54px;
+  margin-right: 70px;
+  top: 0;
+  right: 0;
+  width: 0;
+  background-color: #F2F2F2;
+  background-image: url("../image/icons/close.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 53px;
+  height: 53px;
+  border-radius: 50px;
+  border: none;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
