@@ -44,7 +44,7 @@ body {
 }
 
 .navigation {
-  width: 1085px;
+  width: 1060px;
   position: relative;
   z-index: 1;
   display: flex;
@@ -56,10 +56,12 @@ body {
   display: block;
   font-size: 16px;
   width: 160px;
-  padding: 9px 15px;
+  padding: 9px 5px;
+  padding-right: 7px;
   line-height: 20px;
   border-radius: 4px;
   z-index: 1;
+  box-sizing:border-box;
 }
 
 .navigation-list {
@@ -71,10 +73,10 @@ body {
 }
 
 .navigation-user {
-  max-width: 278px;
+  max-width: 255px;
   align-items: center;
   margin-left: auto;
-  margin-top: 7px;
+  margin-top: 5px;
 
 }
 
@@ -193,6 +195,7 @@ body {
 
 .hotel-catalog {
   padding: 70px;
+  padding-top: 0px;
 }
 
 .hotels-type {
@@ -498,12 +501,39 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   color: #fff;
-  padding: 35px 72px;
+  padding: 40px 70px;
+  min-height: 408px;
 }
 
 .button-form {
   margin-left: auto;
   margin-top: 60px;
+}
+
+.check-box {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-bottom: 13px;
+  margin-left: 40px;
+}
+
+.control-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-bottom: 13px;
+  background-color: #fff;
+  background-repeat: none;
+  position: absolute;
+  appearance: none;
+  position: center;
+}
+
+.control-input:checked {
+  /* background-image: url("../image/icons/check.svg;); */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .catalog-form {
@@ -563,6 +593,7 @@ body {
   border: none;
   padding: 0;
   margin-left: 0;
+  margin-top: 8px;
 }
 
 .catalog-filter-item {
@@ -659,8 +690,9 @@ body {
 
 .breadcrumbs {
   display: flex;
-  margin-bottom: 45px;
-  padding-left: 4px;
+  margin-bottom: 38px;
+  margin-left: 3px;
+  margin-top: -7px;
 }
 
 .breadcrumbs-link {
@@ -673,14 +705,6 @@ body {
   margin: 0;
   font-size: 60px;
   line-height: 78px;
-  margin-bottom: 5px;
-}
-
-.control-input {
-  width: 20px;
-  height: 20px;
-  border-radius: 5px;
-  margin-bottom: 13px;
 }
 
 .found-descr {
@@ -756,6 +780,7 @@ body {
   line-height: 26px;
   box-sizing: border-box;
   text-align: center;
+  border-radius: 4px
 }
 
 .pagination-link:hover {
@@ -925,10 +950,14 @@ GREEN BUTTON */
   line-height: 26px;
 }
 
+.like-ico {
+  margin-right: 10px;;
+}
+
 .like-ico::before {
   position: absolute;
-  bottom: 12px;
-  left: 13px;
+  bottom: 10px;
+  left: 14px;
   content: "12";
   display: flex;
   justify-content: center;
@@ -938,12 +967,9 @@ GREEN BUTTON */
   background-color: #7db54f;
   border-radius: 50px;
   z-index: 1;
-}
 
-.check-box {
-  width: 20px;
-  height: 20px;
-}
+
+
 
 .modal {
   position: relative;
