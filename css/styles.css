@@ -36,7 +36,7 @@ body {
   list-style: none;
 }
 
-.wrapper {
+.frame {
   width: 1200px;
   margin: 0 auto;
   box-shadow: 0 0 15px 0 rgba(0,0,0,.2);
@@ -64,7 +64,6 @@ body {
   padding-right: 7px;
   line-height: 20px;
   border-radius: 4px;
-  z-index: 1;
   box-sizing:border-box;
 }
 
@@ -95,7 +94,7 @@ body {
   padding: 20px 7px;
 }
 
-.navigation-link-ico {
+.navigation-link-icon {
   position: relative;
 }
 
@@ -322,21 +321,19 @@ body {
 
 .search-button {
   display: inline-block;
-  box-sizing:
-  border-box;
+  box-sizing: border-box;
   padding: 12px 10px;
   line-height: 36px;
   min-width: 575px;
   min-height: 60px;
   font-size: 20px;
   border-radius: 4px;
-  /* border: none; */
 }
 
 .subscribe {
   background-image: url("../image/subscribe.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   text-align: center;
   color: #fff;
   padding: 95px 200px;
@@ -476,20 +473,20 @@ body {
   margin-left: 62px;
 }
 
-.developer-ico {
+.developer-icon {
   display: block;
   color: #000;
 }
 
-.developer-ico:hover {
+.developer-icon:hover {
   color: #756157;
 }
 
-.developer-ico:focus-visible {
+.developer-icon:focus-visible {
   color: #756157;
 }
 
-.developer-ico:active {
+.developer-icon:active {
   color: rgba(117, 97, 87, 0.3);
 }
 
@@ -782,7 +779,7 @@ body {
   border: 2px solid #000;
 }
 
-.sort-ico {
+.sort-icon {
   display: block;
   width: 50px;
 }
@@ -981,11 +978,11 @@ GREEN BUTTON */
   line-height: 26px;
 }
 
-.like-ico {
+.like-icon {
   margin-right: 10px;;
 }
 
-.like-ico::before {
+.like-icon::before {
   position: absolute;
   bottom: 10px;
   left: 14px;
